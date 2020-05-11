@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as soup
 
 my_url = 'https://www.ah.nl/producten'
 
-# Open de page
+# Open de page, this is important
 uClient = uReq(my_url)
 
 # Store page
